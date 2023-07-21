@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Criptography {
-    private final String alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя.,:\"-!? ";
+    private final String alphabet = "абвгґдеєжзиіїйклмнопрстуфхцчшщьюя.,:\"-!? ";
     private final int alphabetSize = alphabet.length();
 
     public void encrypt(String inputFile, String outputFile, String key) {

@@ -7,7 +7,7 @@ public class Main {
         String encryptedFile = "encrypted.txt";
         String decryptedFile = "decrypted.txt";
         String bruteForceFile = "bruteForce.txt";
-        String key = "4";
+        String key = "2";
 
 
         cryptography.encrypt(inputFile, encryptedFile, key);
